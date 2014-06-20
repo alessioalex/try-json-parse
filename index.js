@@ -1,10 +1,10 @@
 "use strict";
 
-function tryToParseJson(string) {
+function tryToParseJson(string, reviver) {
   var result;
 
   try {
-    result = JSON.parse(string);
+    result = JSON.parse(string, reviver);
   } catch (error) {
     // oh error? well just return null, no biggie
     result = null;
