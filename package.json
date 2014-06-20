@@ -1,7 +1,7 @@
 {
   "name": "try-json-parse",
   "version": "0.1.0",
-  "description": "Doesn't throw an error when JSON.parse() fails, just returns null",
+  "description": "Doesn't throw an error when JSON.parse() fails, just returns undefined",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

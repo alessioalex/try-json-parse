@@ -6,8 +6,7 @@ function tryToParseJson(string, reviver) {
   try {
     result = JSON.parse(string, reviver);
   } catch (error) {
-    // oh error? well just return null, no biggie
-    result = undefined;
+    // oh error? well just return undefined, no biggie
   }
 
   return result;
