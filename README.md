@@ -1,6 +1,6 @@
 ### try-json-parse
 
-Just like `JSON.parse()`, except it returns `null` instead of throwing an error for invalid JSON.
+Just like `JSON.parse()`, except it returns `undefined` instead of throwing an error for invalid JSON.
 
 ### Usage
 
