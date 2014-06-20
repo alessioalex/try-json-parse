@@ -1,6 +1,6 @@
 {
   "name": "try-json-parse",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Doesn't throw an error when JSON.parse() fails, just returns null",
   "main": "index.js",
   "scripts": {
