@@ -9,5 +9,5 @@ fs.readFile(__dirname + '/package.json', function(err, content) {
 
   pkgJson = JSONparse(content);
   assert.equal(pkgJson.name, 'try-json-parse');
-  assert.equal(JSONparse(fs.readFileSync(__filename)), null);
+  assert(JSONparse(fs.readFileSync(__filename)) === undefined);
 });
