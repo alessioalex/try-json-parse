@@ -1,3 +1,7 @@
+# v1.0.0
+
+- simplify implementation - by @dsh0416
+
 # v0.1.0
 
 - null is valid json, return undefined - by @Raynos
